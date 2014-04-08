@@ -1,0 +1,30 @@
+{
+    "name": "icecave/abraxas",
+    "description": "This package needs a description!",
+    "keywords": [],
+    "homepage": "https://github.com/IcecaveStudios/abraxas",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Harris",
+            "email": "james.harris@icecave.com.au",
+            "homepage": "https://github.com/jmalloc"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "icecave/isolator": "~2",
+        "rych/random": "~0.1.0"
+    },
+    "require-dev": {
+        "icecave/archer": "~1"
+    },
+    "suggest": {
+        "eloquent/asplode": "Drop-in exception-based error handling."
+    },
+    "autoload": {
+        "psr-4": {
+            "Icecave\\Abraxas\\": "src"
+        }
+    }
+}
