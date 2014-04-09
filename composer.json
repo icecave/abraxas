@@ -8,7 +8,7 @@
         "generation",
         "generator",
         "random",
-        "crypto",
+        "crypto"
     ],
     "homepage": "https://github.com/IcecaveStudios/abraxas",
     "license": "MIT",
