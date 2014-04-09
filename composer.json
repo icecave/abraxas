@@ -1,7 +1,7 @@
 {
     "name": "icecave/abraxas",
-    "description": "This package needs a description!",
-    "keywords": [],
+    "description": "A simple password generation library.",
+    "keywords": ["password", "passphrase", "generate", "generation", "generator", "random"],
     "homepage": "https://github.com/IcecaveStudios/abraxas",
     "license": "MIT",
     "authors": [
