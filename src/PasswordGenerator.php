@@ -3,6 +3,10 @@ namespace Icecave\Abraxas;
 
 use Rych\Random\Random;
 
+/**
+ * A basic password generator that generates passwords using alphanumeric
+ * characters and punctuation.
+ */
 class PasswordGenerator implements PasswordGeneratorInterface
 {
     public function __construct(Random $rng = null)

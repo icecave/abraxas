@@ -1,7 +1,15 @@
 {
     "name": "icecave/abraxas",
-    "description": "This package needs a description!",
-    "keywords": [],
+    "description": "Generate random passwords using a cryptographically secure RNG.",
+    "keywords": [
+        "password",
+        "passphrase",
+        "generate",
+        "generation",
+        "generator",
+        "random",
+        "crypto"
+    ],
     "homepage": "https://github.com/IcecaveStudios/abraxas",
     "license": "MIT",
     "authors": [
