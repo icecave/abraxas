@@ -1,4 +1,5 @@
 # archer start
 /artifacts/
 /vendor/
+/.idea
 # archer end
