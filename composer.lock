@@ -104,7 +104,7 @@
                 {
                     "name": "Ryan Chouinard",
                     "email": "rchouinard@gmail.com",
-                    "homepage": "http://ryanchouinard.com"
+                    "homepage": "https://www.ryanchouinard.com"
                 }
             ],
             "description": "Random data generator for PHP",
@@ -1101,18 +1101,12 @@
             "time": "2014-07-05 12:19:05"
         }
     ],
-    "aliases": [
-
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": [],
     "prefer-stable": false,
     "platform": {
         "php": ">=5.3"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": []
 }

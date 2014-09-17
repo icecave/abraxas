@@ -32,11 +32,12 @@ class PasswordGenerator implements PasswordGeneratorInterface
      *
      * @param integer $length The minimum length of generated passwords.
      *
-     * @return PasswordGenerator
+     * @return PasswordGenerator This object.
      */
     public function setMinimumLength($length)
     {
         $this->minimumLength = $length;
+
         return $this;
     }
 
@@ -55,11 +56,12 @@ class PasswordGenerator implements PasswordGeneratorInterface
      *
      * @param integer $length The maximum length of generated passwords.
      *
-     * @return PasswordGenerator
+     * @return PasswordGenerator This object.
      */
     public function setMaximumLength($length)
     {
         $this->maximumLength = $length;
+
         return $this;
     }
 
@@ -79,12 +81,13 @@ class PasswordGenerator implements PasswordGeneratorInterface
      *
      * @param boolean $allow True if uppercase characters are allowed.
      *
-     * @return PasswordGenerator
+     * @return PasswordGenerator This object.
      */
     public function setAllowUppercase($allow)
     {
         $this->allowUppercase = $allow;
         $this->characterSet = null;
+
         return $this;
     }
 
@@ -103,12 +106,13 @@ class PasswordGenerator implements PasswordGeneratorInterface
      *
      * @param boolean $allow True if digits are allowed.
      *
-     * @return PasswordGenerator
+     * @return PasswordGenerator This object.
      */
     public function setAllowDigits($allow)
     {
         $this->allowDigits = $allow;
         $this->characterSet = null;
+
         return $this;
     }
 
@@ -130,12 +134,13 @@ class PasswordGenerator implements PasswordGeneratorInterface
      *
      * @param boolean $allow True if symbols are allowed.
      *
-     * @return PasswordGenerator
+     * @return PasswordGenerator This object.
      */
     public function setAllowSymbols($allow)
     {
         $this->allowSymbols = $allow;
         $this->characterSet = null;
+
         return $this;
     }
 
@@ -157,12 +162,13 @@ class PasswordGenerator implements PasswordGeneratorInterface
      *
      * @param boolean $allow True if ambiguous characters are allowed.
      *
-     * @return PasswordGenerator
+     * @return PasswordGenerator This object.
      */
     public function setAllowAmbiguousCharacters($allow)
     {
         $this->allowAmbiguousCharacters = $allow;
         $this->characterSet = null;
+
         return $this;
     }
 
