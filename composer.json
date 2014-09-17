@@ -25,8 +25,7 @@
         "rych/random": "~0.1.0"
     },
     "require-dev": {
-        "icecave/archer": "~1",
-        "phpunit/phpunit": "4.1.*@stable"
+        "icecave/archer": "~1"
     },
     "autoload": {
         "psr-4": {
