@@ -12,6 +12,39 @@ class PasswordGeneratorTest extends PHPUnit_Framework_TestCase
         $this->generator = new PasswordGenerator($this->random);
     }
 
+    public function testMutatorsReturnThis()
+    {
+        $this->assertSame(
+            $this->generator,
+            $this->generator->setMinimumLength(10)
+        );
+
+        $this->assertSame(
+            $this->generator,
+            $this->generator->setMaximumLength(20)
+        );
+
+        $this->assertSame(
+            $this->generator,
+            $this->generator->setAllowUppercase(true)
+        );
+
+        $this->assertSame(
+            $this->generator,
+            $this->generator->setAllowDigits(true)
+        );
+
+        $this->assertSame(
+            $this->generator,
+            $this->generator->setAllowSymbols(true)
+        );
+
+        $this->assertSame(
+            $this->generator,
+            $this->generator->setAllowAmbiguousCharacters(true)
+        );
+    }
+
     public function testDefaultCharacterSet()
     {
         $this->assertSame(

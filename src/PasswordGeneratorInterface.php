@@ -24,6 +24,8 @@ interface PasswordGeneratorInterface
      * Set the minimum length of generated passwords.
      *
      * @param integer $length The minimum length of generated passwords.
+     *
+     * @return PasswordGeneratorInterface This object.
      */
     public function setMinimumLength($length);
 
@@ -38,6 +40,8 @@ interface PasswordGeneratorInterface
      * Set the maximum length of generated passwords.
      *
      * @param integer $length The maximum length of generated passwords.
+     *
+     * @return PasswordGeneratorInterface This object.
      */
     public function setMaximumLength($length);
 }
