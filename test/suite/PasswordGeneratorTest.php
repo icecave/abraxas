@@ -179,7 +179,7 @@ class PasswordGeneratorTest extends PHPUnit_Framework_TestCase
 
     public function testGenerateFunctional()
     {
-        $generator = new PasswordGenerator;
+        $generator = new PasswordGenerator();
         $characterSet = $generator->characterSet();
         $pattern = '/^[' . preg_quote($characterSet, '/') . ']{8,12}$/';
 

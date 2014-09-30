@@ -12,7 +12,7 @@ class PasswordGenerator implements PasswordGeneratorInterface
     public function __construct(Random $rng = null)
     {
         if (null === $rng) {
-            $rng = new Random;
+            $rng = new Random();
         }
 
         $this->rng = $rng;
