@@ -2,9 +2,9 @@
 namespace Icecave\Abraxas;
 
 use Phake;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class PasswordGeneratorTest extends PHPUnit_Framework_TestCase
+class PasswordGeneratorTest extends TestCase
 {
     public function setUp()
     {
