@@ -1,14 +1,13 @@
 # Abraxas
 
-[![Build Status]](https://travis-ci.org/IcecaveStudios/abraxas)
-[![Test Coverage]](https://coveralls.io/r/IcecaveStudios/abraxas?branch=develop)
-[![SemVer]](http://semver.org)
+[![Build Status](http://img.shields.io/travis/icecave/abraxas/master.svg?style=flat-square)](https://travis-ci.org/icecave/abraxas)
+[![Code Coverage](https://img.shields.io/codecov/c/github/icecave/abraxas/master.svg?style=flat-square)](https://codecov.io/github/icecave/abraxas)
+[![Latest Version](http://img.shields.io/packagist/v/icecave/abraxas.svg?style=flat-square&label=semver)](https://semver.org)
 
 **Abraxas** is very simple PHP library for generating random passwords using
 a [cryptographically secure RNG](http://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator).
 
-* Install via [Composer](http://getcomposer.org) package [icecave/abraxas](https://packagist.org/packages/icecave/abraxas)
-* Read the [API documentation](http://icecavestudios.github.io/abraxas/artifacts/documentation/api/)
+    composer require icecave/abraxas
 
 ## Example
 
@@ -21,8 +20,3 @@ $generator->setAllowAmbiguousCharacters(false);
 
 $password = $generator->generate();
 ```
-
-<!-- references -->
-[Build Status]: http://img.shields.io/travis/IcecaveStudios/abraxas/develop.svg
-[Test Coverage]: http://img.shields.io/coveralls/IcecaveStudios/abraxas/develop.svg
-[SemVer]: http://img.shields.io/:semver-1.1.0-green.svg

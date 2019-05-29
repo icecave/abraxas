@@ -2,9 +2,9 @@
 namespace Icecave\Abraxas;
 
 use Phake;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class PasswordGeneratorTest extends PHPUnit_Framework_TestCase
+class PasswordGeneratorTest extends TestCase
 {
     public function setUp()
     {
@@ -179,7 +179,7 @@ class PasswordGeneratorTest extends PHPUnit_Framework_TestCase
 
     public function testGenerateFunctional()
     {
-        $generator = new PasswordGenerator;
+        $generator = new PasswordGenerator();
         $characterSet = $generator->characterSet();
         $pattern = '/^[' . preg_quote($characterSet, '/') . ']{8,12}$/';
 

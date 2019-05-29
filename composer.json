@@ -10,31 +10,29 @@
         "random",
         "crypto"
     ],
-    "homepage": "https://github.com/IcecaveStudios/abraxas",
+    "homepage": "https://github.com/icecave/abraxas",
     "license": "MIT",
     "authors": [
         {
             "name": "James Harris",
-            "email": "james.harris@icecave.com.au",
+            "email": "mailjamesharris@gmail.com",
             "homepage": "https://github.com/jmalloc"
         }
     ],
     "require": {
-        "php": ">=5.3",
-        "icecave/isolator": "~2",
-        "rych/random": "~0.1.0"
+        "php": "^7.1",
+        "icecave/isolator": "^2",
+        "rych/random": "^0.1"
     },
     "require-dev": {
-        "icecave/archer": "~1"
+        "phake/phake": "^3",
+        "phpunit/phpunit": "^7"
     },
-    "autoload": {
-        "psr-4": {
-            "Icecave\\Abraxas\\": "src"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-develop": "1.1.x-dev"
+    "autoload": { "psr-4": { "Icecave\\Abraxas\\": "src" } },
+    "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "7.1"
         }
     }
 }
